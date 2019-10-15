@@ -1,0 +1,32 @@
+<!-- Developer Code Challenge - Braga, 2019, Oct-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="alpharetta.css">
+    <title>Code Challenge - Alpharetta Top 5 Reviews</title>
+</head>
+<body> 
+    <h1>Developer Code Challenge</h1>
+    <h2>By Braga - October 15, 2019</h2>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>                
+        <button name="btnRefresh" onclick="doSearch();" class='button'><span>Click to see the Top-5 Ice Cream Shops in Alpharetta and why!</span></button>
+    <table width="1000">
+        <thead>
+            <tr>
+            <th width="15%">Shop Name</th>
+            <th width="25%">Display Address</th>
+            <th width="20%">User</th>
+            <th width="40%">Review</th>
+            </tr>
+        </thead>
+        <tbody id="tbSearchResult">
+		</tbody>
+    </table>
+    <script src="yelp-functions.js" type="text/javascript"></script>
+    </body>
+</html>
